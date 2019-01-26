@@ -1,0 +1,46 @@
+{
+  "name": "xpress-node",
+  "version": "1.0.0",
+  "description": "Building REST apis using express and node",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "execLint": "eslint .",
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Rest",
+    "API"
+  ],
+  "author": "Saleem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.15.0"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "delay": 1000,
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4900
+    },
+    "ext": "js,json"
+  }
+}
