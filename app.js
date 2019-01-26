@@ -5,7 +5,7 @@ const app = express();
 
 const port = process.env.PORT || 4600;
 
-app.get('/', (err, res) => {
+app.get('/', (re, res) => {
     res.send('Welcom to the first app :)');
 });
 
