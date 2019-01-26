@@ -1,0 +1,22 @@
+{
+    "wrestlers": [
+      {
+        "id": 1,
+        "name": "Dwayne Johnson",
+        "nick_name": "The Rock",
+        "hobby": "video games"
+      },
+      {
+        "id": 2,
+        "name": "Stone Cold Steve Austin",
+        "nick_name": "The Raddle Snake",
+        "hobby": ""
+      },
+      {
+        "id": 3,
+        "name": "Undertaker",
+        "nick_name": "The dead man",
+        "hobby": "ann@codingthesmartway.com"
+      }
+    ]
+  }
